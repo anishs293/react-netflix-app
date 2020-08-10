@@ -1,0 +1,98 @@
+
+* {
+  background-color: #2e2e2e  ;
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.headline-style{
+padding: 30px 0px;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+text-transform: uppercase;
+font-size: 13px;
+letter-spacing: 2px;
+font-weight: 900;
+color: #8a8a8a;
+background-color: #fff;
+font-size: 1.5rem;
+margin-bottom: 30px;
+}
+
+.cards{
+  width: 100%;
+  height: auto;
+}
+
+.card{
+  
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  width: 18%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(255, 255, 255, 0.192);
+  float:left;
+  margin: 50px;
+  justify-content: center;
+}
+
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(255, 255, 255, 0.253);
+  transform: scale(1.05, 1.05);
+}
+
+.card_img{
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-info
+{
+background-color: #fff;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+padding: 16px 20px 24px 24px;
+}
+
+.card_category{
+text-transform: uppercase;
+font-family:"Raleway", sans-serif;
+font-size: 13px;
+letter-spacing: 2px;
+font-weight: 500;
+color: #868686;
+background-color: #fff;
+}
+
+.card-title{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+button{
+  padding: 5px 8px;
+  font-family:"Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #999898;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: 1.2px solid black;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .card{
+    float: none;
+    margin: 20%;
+    width: 60%;
+  }
+}
