@@ -1,4 +1,4 @@
-#1 Built Netflix Responsive App with React
+> *Built Netflix Responsive App with React
 
 
-> **https://anishs293.github.io/react-netflix-app**
+:point_right:**https://anishs293.github.io/react-netflix-app**
